@@ -1,0 +1,7 @@
+{
+    "Model": "RandomForestClassifier",
+    "Accuracy": 0.968,
+    "Features": 25,
+    "Sample Size": 10000,
+    "Comment": "Week 2 - Baseline model with sensor-based RUL feature and binary classification"
+}
