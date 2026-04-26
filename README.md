@@ -1,10 +1,12 @@
 # ✈️ Aerospace Predictive Maintenance using Machine Learning
+> 🚀 Built as part of Edunet AI/ML Aerospace Internship — applying machine learning to real-world predictive maintenance problems.
 
 ## 📌 Overview
 This project focuses on **predictive maintenance in aerospace systems** using the NASA CMAPSS dataset.  
 The objective is to predict the **Remaining Useful Life (RUL)** of aircraft engines to enable proactive maintenance, improve safety, and reduce operational costs.
 
 ---
+
 
 ## 🎯 Problem Statement
 Aircraft engine failures can lead to high costs and safety risks.  
@@ -52,10 +54,9 @@ This project builds a machine learning model to **predict engine degradation ove
 ---
 
 ## 🚀 Results
-- Successfully built a model to predict engine RUL  
-- Demonstrated how predictive maintenance can reduce unexpected failures  
-
-*(Add your actual accuracy/RMSE here if available)*
+- Achieved **~96% accuracy** using a Random Forest classifier  
+- Successfully predicted aircraft engine failure within **30 operational cycles**  
+- Enabled early detection of failures, supporting proactive maintenance and reducing downtime  
 
 ---
 
@@ -77,19 +78,37 @@ Aerospace-Predictive-Maintenance-ML/
 ---
 ## 📊 Results & Visualizations
 
-### RUL Distribution
-<img width="574" height="446" alt="Screenshot 2026-04-26 121344" src="https://github.com/user-attachments/assets/b00c45ee-27b8-4d8f-b4ac-02538a6ce045" />
+### 📊 RUL Distribution
+![RUL Distribution](https://github.com/user-attachments/assets/b00c45ee-27b8-4d8f-b4ac-02538a6ce045)
 
-### Correlation Heatmap
-<img width="654" height="413" alt="Screenshot 2026-04-26 121618" src="https://github.com/user-attachments/assets/cd4d79c8-c542-4494-84db-ccf705923f6f" />
+Most engines operate close to failure (low RUL), indicating realistic degradation patterns in the dataset.
 
+---
 
-### Sensor Behavior Over Time
-<img width="519" height="392" alt="Screenshot 2026-04-26 121710" src="https://github.com/user-attachments/assets/22f4b90b-aea9-42c9-b313-296d9c271550" />
+### 🔥 Correlation Heatmap
+![Heatmap](https://github.com/user-attachments/assets/cd4d79c8-c542-4494-84db-ccf705923f6f)
 
+Several sensors show strong positive and negative correlations, helping identify the most influential features for failure prediction.
 
-### Model Performance
-Accuracy: 96%
+---
+
+### 📈 Sensor Behavior Over Time
+![Sensor](https://github.com/user-attachments/assets/22f4b90b-aea9-42c9-b313-296d9c271550)
+
+Sensor values change over time, revealing clear degradation trends as the engine approaches failure.
+
+---
+
+### 🤖 Model Performance
+- **Model:** Random Forest Classifier  
+- **Accuracy:** ~96%  
+
+The model effectively predicts engine failure within 30 cycles, enabling proactive maintenance decisions.
+
+## 🧠 Key Learning
+- Learned how to handle time-series sensor data
+- Understood importance of feature selection in ML models
+- Gained experience in building real-world predictive systems
 
 
 ## 📎 Conclusion
